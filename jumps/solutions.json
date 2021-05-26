@@ -1,0 +1,96 @@
+{
+  "solution.cpp": {
+    "verdict": "model_solution"
+  },
+  "solution-increasing-H.cpp": {
+    "verdict": "incorrect",
+    "except": {"increasing-H": "correct"}
+  },
+  "solution-cubic.cpp": {
+    "verdict": "time_limit_and_runtime_error",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct",
+      "quadratic": "time_limit"
+    }
+  },
+  "solution-quadratic.cpp": {
+    "verdict": "time_limit_and_runtime_error",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct",
+      "quadratic": "correct"
+    }
+  },
+  "solution-small-query.cpp": {
+    "verdict": "time_limit",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct",
+      "quadratic": "correct",
+      "small-query": "correct"
+    }
+  },
+  "solution-fixed-start-end.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "increasing-H": "correct",
+      "fixed-start-end": "correct"
+    }
+  },
+  "solution-fixed-end.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "increasing-H": "correct",
+      "fixed-start-end": "correct",
+      "fixed-end": "correct"
+    }
+  },
+  "solution-tle-small-query.cpp": {
+    "verdict": "time_limit",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct",
+      "quadratic": "correct"
+    }
+  },
+  "solution-wa-end-shortest.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "samples": "correct",
+      "increasing-H": "correct",
+      "fixed-start-end": "correct",
+      "fixed-end": "time_limit",
+      "small-query": "failed",
+      "full": "failed"
+    }
+  },
+  "solution-wa-start-outside.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "samples": "correct",
+      "increasing-H": "correct"
+    }
+  },
+  "solution-wa-goto-highest.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "samples": "correct",
+      "fixed-start-end": "correct",
+      "fixed-end": "correct"
+    }
+  },
+  "solution-prabowo.cpp": {
+    "verdict": "correct"
+  },
+  "solution-sebas.cpp": {
+    "verdict": "correct"
+  },
+  "solution-sebas-wa-miss-special-case.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "samples": "correct",
+      "increasing-H": "correct"
+    }
+  }
+}

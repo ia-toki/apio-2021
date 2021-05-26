@@ -1,0 +1,11 @@
+{
+  "name": "jumps",
+  "code": "jumps",
+  "title": "Rainforest Jumps",
+  "memory_limit": 1024,
+  "time_limit": 3.0,
+  "type": "Communication",
+  "num_processes": 1,
+  "grader_name": "stub",
+  "has_checker": true
+}

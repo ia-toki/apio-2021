@@ -1,0 +1,84 @@
+{
+  "solution.cpp": {
+    "verdict": "model_solution"
+  },
+  "solution_cube.cpp": {
+    "verdict": "time_limit",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct"
+    }
+  },
+  "solution_n_square_log.cpp": {
+    "verdict": "time_limit",
+    "except": {
+      "samples": "correct",
+      "cubic": "correct",
+      "quadratic": "correct"
+    }
+  },
+  "solution_unweighted.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "constant-W": "correct"
+    }
+  },
+  "solution_pruning.cpp": {
+    "verdict": "time_limit",
+    "except": {
+      "samples": "correct",
+      "line": "correct",
+      "cubic": "correct",
+      "quadratic": "correct"
+    }
+  },
+  "solution_line.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "line": "correct"
+    }
+  },
+  "solution_line_alternating.cpp": {
+    "verdict": "incorrect"
+  },
+  "solution_star.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "star": "correct"
+    }
+  },
+  "solution_unweighted_incorrect_greedy_set.cpp": {
+    "verdict": "incorrect"
+  },
+  "solution_small_w.cpp": {
+    "verdict": "time_limit_and_runtime_error",
+    "except": {
+      "samples": "correct",
+      "constant-W": "correct",
+      "small-W": "correct"
+    }
+  },
+  "solution_dynamic_w.cpp": {
+    "verdict": "correct",
+    "except": {
+      "star": "time_limit",
+      "full": "time_limit"
+    }
+  },
+  "solution-prabowo.cpp": {
+    "verdict": "correct"
+  },
+  "solution-prabowo-log-squared.cpp": {
+    "verdict": "correct"
+  },
+  "tle-prabowo-no-fenwick.cpp": {
+    "verdict": "correct",
+    "except": {
+      "star": "time_limit",
+      "full": "time_limit"
+    }
+  },
+  "solution-wiwitrifai.cpp": {
+    "verdict": "correct"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "solution.cpp": {
+    "verdict": "model_solution"
+  },
+  "solution-B-equals-zero-triangle.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct"
+    }
+  },
+  "solution-triangle.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct",
+      "triangle": "correct"
+    }
+  },
+  "solution-quadratic-sum-L.cpp": {
+    "verdict": "failed",
+    "except": {
+      "samples": "correct",
+      "quadratic-sum-L": "correct"
+    }
+  },
+  "solution-B-equals-zero-small.cpp": {
+    "verdict": "failed",
+    "except": {
+      "B-equals-zero-small": "correct"
+    }
+  },
+  "solution-B-equals-zero.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct",
+      "B-equals-zero-small": "correct",
+      "B-equals-zero": "correct"
+    }
+  },
+  "solution-B-equals-zero_pick-theorem.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct",
+      "B-equals-zero-small": "correct",
+      "B-equals-zero": "correct"
+    }
+  },
+  "solution-linear-sum-L.cpp": {
+    "verdict": "failed",
+    "except": {
+      "samples": "correct",
+      "quadratic-sum-L": "correct",
+      "B-equals-zero-small": "correct",
+      "linear-sum-L": "correct"
+    }
+  },
+  "solution-constant-L.cpp": {
+    "verdict": "failed",
+    "except": {
+      "samples": "correct",
+      "B-equals-zero-triangle": "correct",
+      "triangle": "correct",
+      "quadratic-sum-L": "correct",
+      "B-equals-zero-small": "correct",
+      "linear-sum-L": "correct",
+      "constant-L": "correct"
+    }
+  },
+  "solution-amnu-triangle.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct",
+      "triangle": "correct"
+    }
+  },
+  "solution-amnu-flood-fill.cpp": {
+    "verdict": "runtime_error",
+    "except": {
+      "samples": "correct",
+      "quadratic-sum-L": "correct"
+    }
+  },
+  "solution-amnu-pick-theorem.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct",
+      "B-equals-zero-small": "correct",
+      "B-equals-zero": "correct"
+    }
+  },
+  "solution-prabowo.cpp": {
+    "verdict": "correct"
+  },
+  "wa-B-equals-zero.cpp": {
+    "verdict": "incorrect"
+  },
+  "wa-B-equals-zero-triangle.cpp": {
+    "verdict": "incorrect"
+  },
+  "wa-B-equals-zero-triangle-2.cpp": {
+    "verdict": "incorrect"
+  },
+  "wa-B-equals-zero-triangle-3.cpp": {
+    "verdict": "incorrect"
+  },
+  "wa-triangle.cpp": {
+    "verdict": "incorrect",
+    "except": {
+      "B-equals-zero-triangle": "correct"
+    }
+  },
+  "rte-wrong-line-comparator.cpp": {
+    "verdict": "failed",
+    "except": {
+      "samples": "correct",
+      "B-equals-zero-triangle": "correct",
+      "triangle": "correct",
+      "constant-L": "correct"
+    }
+  }
+}

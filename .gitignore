@@ -1,0 +1,34 @@
+# Ignore all backups
+*~
+
+# Ignore .DS_Store from mac
+.DS_Store
+
+# Ignore .exe from Windows
+*.exe
+
+# Ignore class files from java
+*.class
+
+# Ignore tps derived directories
+tests/
+sandbox/
+logs/
+
+# Ignore tps compile and error
+*.err.out
+*.compile.out
+
+# Ignore public zip
+*.zip
+
+
+# Ignore python compile
+*.pyc
+
+# Ignore generated public grader
+*/public/cpp/grader.cpp
+*/public/cpp/*.h
+
+# Ignore generated gen/data
+*/gen/data

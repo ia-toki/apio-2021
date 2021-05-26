@@ -1,0 +1,74 @@
+\begin{tikzpicture}
+    \foreach \j in {0,...,12}{% 
+     \ifodd\j 
+         \foreach \i in {0,...,10}{\node[hexa] (h\j;\i) at ({\j/2+\j/4},{(\i+1/2)*sin(60)}) {};}
+    \else
+         \foreach \i in {0,...,11}{\node[hexa] (h\j;\i) at ({\j/2+\j/4},{\i*sin(60)}) {};}
+    \fi}
+
+    \tikzset{hexadist/.style={hexa,fill={rgb,255:red,120;green,203;blue,255}}}
+    
+    \node[hexadist] at (h2;5) {\textbf{0}};
+
+    \node[hexadist] at (h2;6) {\textbf{1}};
+    \node[hexadist] at (h3;5) {\textbf{1}};
+    \node[hexadist] at (h3;4) {\textbf{1}};
+    \node[hexadist] at (h2;4) {\textbf{1}};
+
+    \node[hexadist] at (h3;6) {\textbf{2}};
+    \node[hexadist] at (h4;6) {\textbf{2}};
+    \node[hexadist] at (h4;5) {\textbf{2}};
+    \node[hexadist] at (h4;4) {\textbf{2}};
+    \node[hexadist] at (h3;3) {\textbf{2}};
+
+    \node[hexadist] at (h4;7) {\textbf{3}};
+    \node[hexadist] at (h5;6) {\textbf{3}};
+    \node[hexadist] at (h5;5) {\textbf{3}};
+    \node[hexadist] at (h5;4) {\textbf{3}};
+    \node[hexadist] at (h5;3) {\textbf{3}};
+    \node[hexadist] at (h4;3) {\textbf{3}};
+    
+    \node[hexadist] at (h6;6) {\textbf{4}};
+    \node[hexadist] at (h6;5) {\textbf{4}};
+    \node[hexadist] at (h6;6) {\textbf{4}};
+    \node[hexadist] at (h6;3) {\textbf{4}};
+    \node[hexadist] at (h5;2) {\textbf{4}};
+    
+    \node[hexadist] at (h7;3) {\textbf{5}};
+    \node[hexadist] at (h7;2) {\textbf{5}};
+    \node[hexadist] at (h6;2) {\textbf{5}};
+
+    \node[hexadist] at (h8;4) {\textbf{6}};
+    \node[hexadist] at (h8;3) {\textbf{6}};
+    \node[hexadist] at (h8;2) {\textbf{6}};
+    \node[hexadist] at (h7;1) {\textbf{6}};
+    
+    \node[hexadist] at (h8;5) {\textbf{7}};
+    \node[hexadist] at (h9;4) {\textbf{7}};
+    \node[hexadist] at (h9;3) {\textbf{7}};
+    \node[hexadist] at (h9;2) {\textbf{7}};
+    
+    \node[hexadist] at (h8;6) {\textbf{8}};
+    \node[hexadist] at (h9;5) {\textbf{8}};
+    \node[hexadist] at (h10;5) {\textbf{8}};
+    \node[hexadist] at (h10;4) {\textbf{8}};
+    \node[hexadist] at (h10;3) {\textbf{8}};
+
+    \node[hexadist] at (h8;7) {\textbf{9}};
+    \node[hexadist] at (h9;6) {\textbf{9}};
+    \node[hexadist] at (h10;6) {\textbf{9}};
+    
+    \node[hexadist] at (h7;7) {\textbf{10}};
+    \node[hexadist] at (h8;8) {\textbf{10}};
+    \node[hexadist] at (h9;7) {\textbf{10}};
+    \node[hexadist] at (h10;7) {\textbf{10}};
+    
+    \node[hexadist] at (h6;8) {\textbf{11}};
+    \node[hexadist] at (h7;8) {\textbf{11}};
+    \node[hexadist] at (h8;9) {\textbf{11}};
+    \node[hexadist] at (h9;8) {\textbf{11}};
+    \node[hexadist] at (h10;8) {\textbf{11}};
+    
+    \node[hexadist] at (h9;9) {\textbf{12}};
+    \node[hexadist] at (h10;9) {\textbf{12}};
+\end{tikzpicture}

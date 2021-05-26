@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+    \begin{scope}
+    \node[node] (0) {$0$};
+    \node[node] (1) [below right = 1cm and 1.2cm of 0] {$1$};
+    \node[node] (2) [below left = 1cm and 1.2cm of 0] {$2$};
+    \node[node] (3) [above = 1cm of 0] {$3$};
+    \node[node] (4) [below = 1cm of 2] {$4$};
+    \path[draw,thick]
+    (0) -- (1) node [midway, above] {$1$}
+    (0) -- (2) node [midway, above] {$4$}
+    (0) -- (3) node [midway, right] {$3$}
+    (2) -- (4) node [midway, right] {$2$}
+    ;
+    \end{scope}
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+public cpp/compile.bat
+public cpp/compile.sh
+public cpp/PROBLEM_NAME_PLACE_HOLDER.cpp
+grader cpp/PROBLEM_NAME_PLACE_HOLDER.h
+grader cpp/grader.cpp
+
+public samples/sample-1.in
+public samples/sample-1.out
+public samples/sample-2.in
+public samples/sample-2.out

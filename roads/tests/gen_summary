@@ -1,0 +1,106 @@
+# test_name gen_line_number gen_line_content
+Samples-01	  3	manual sample-1.in
+Samples-02	  4	manual sample-2.in
+UnweightedCorners-01	  7	gen line 2 2 1 1 0
+Corners-01	 10	gen line 2 2 2 10 1
+SmallWeightSmallStar-01	 13	gen star 100 200 5 10 0
+SmallWeightSmallStar-02	 14	gen star 200 200 1 10 1
+SmallStar-01	 17	gen star 100 200 500000000 1000000000 2
+SmallStar-02	 18	gen star 200 200 1 1000000000 3
+SmallStar-03	 19	gen star 200 200 1000000000 1000000000 4
+SmallWeightMediumStar-01	 22	gen star 1000 2000 5 10 5
+SmallWeightMediumStar-02	 23	gen star 2000 2000 1 10 6
+MediumStar-01	 26	gen star 1500 2000 500000000 1000000000 7
+MediumStar-02	 27	gen star 2000 2000 250000000 1000000000 8
+MediumStar-03	 28	gen star 2000 2000 1000000000 1000000000 9
+SmallWeightStar-01	 31	gen star 50000 100000 5 10 10
+SmallWeightStar-02	 32	gen star 100000 100000 1 10 11
+UnweightedStar-01	 35	gen star 90000 100000 1 1 12
+Star-01	 38	gen star 75000 100000 500000000 1000000000 13
+Star-02	 39	gen star 75000 100000 1 1000000000 14
+Star-03	 40	gen star 100000 100000 333333333 1000000000 15
+Star-04	 41	gen star 100000 100000 1000000000 1000000000 16
+SmallLine-01	 44	gen line 100 200 500000000 1000000000 2
+SmallLine-02	 45	gen line 133 200 1 1000000000 3
+SmallLine-03	 46	gen line 200 200 1000000000 1000000000 4
+MediumLine-01	 49	gen line 1500 2000 500000000 1000000000 5
+MediumLine-02	 50	gen line 2000 2000 250000000 1000000000 6
+MediumLine-03	 51	gen line 1333 2000 1000000000 1000000000 7
+UnweightedLine-01	 54	gen line 50000 99999 1 1 8
+UnweightedLine-02	 55	gen line 100000 100000 1 1 9
+SmallWeightLine-01	 58	gen line 50000 100000 5 10 10
+SmallWeightLine-02	 59	gen line 100000 100000 1 10 11
+Line-01	 62	gen line 75000 100000 500000000 1000000000 12
+Line-02	 63	gen line 75000 100000 1 1000000000 13
+Line-03	 64	gen line 100000 100000 333333333 1000000000 14
+Line-04	 65	gen line 100000 100000 1000000000 1000000000 15
+SmallWeightSmall-01	 68	gen random 100 200 5 10 0
+SmallWeightSmall-02	 69	gen random 200 200 1 10 1
+SmallWeightSmall-03	 70	gen flower 200 200 7 10 14 0
+Small-01	 73	gen random 100 200 500000000 1000000000 2
+Small-02	 74	gen random 200 200 1 1000000000 3
+Small-03	 75	gen knary 180 200 min 0 20 0
+Small-04	 76	gen degree 180 200 1 1000000000 40 0
+Small-05	 77	gen degree 200 200 1000000000 1000000000 40 1
+Small-06	 78	gen flower 200 200 900000000 1000000000 14 1
+UnweightedMedium-01	 81	gen random 1500 2000 1 1 4
+UnweightedMedium-02	 82	gen random 2000 2000 1 1 5
+UnweightedMedium-03	 83	gen distinct 2000 2000 1 1 0
+UnweightedMedium-04	 84	gen halving 2000 2000 1 1 0
+UnweightedMedium-05	 85	gen mindegree 2000 2000 1 1 44 0
+SmallWeightMedium-01	 88	gen random 1000 2000 5 10 6
+SmallWeightMedium-02	 89	gen random 2000 2000 1 10 7
+SmallWeightMedium-03	 90	gen knary 2000 2000 1 10 316 1
+Medium-01	 93	gen random 1000 2000 500000000 1000000000 8
+Medium-02	 94	gen random 2000 2000 1 1000000000 9
+Medium-03	 95	gen random 1500 2000 sum 1 10
+Medium-04	 96	gen flower 2000 2000 sum 2 44 2
+Medium-05	 97	gen knary 2000 2000 500000000 1000000000 316 2
+Medium-06	 98	gen knary 1800 2000 min 0 331 3
+Medium-07	 99	gen degree 1800 2000 1 1000000000 300 2
+Medium-08	100	gen mindegree 2000 2000 900000000 1000000000 44 1
+Medium-09	101	gen distinct 2000 2000 999999990 1000000000 1
+Medium-10	102	gen halving 2000 2000 1000000000 1000000000 1
+Unweighted-01	105	gen random 75000 100000 1 1 11
+Unweighted-02	106	gen random 75000 100000 1 1 12
+Unweighted-03	107	gen mindegree 100000 100000 1 1 316 2
+Unweighted-04	108	gen random 100000 100000 1 1 13
+Unweighted-05	109	gen knary 100000 100000 1 1 316 4
+Unweighted-06	110	gen knary 100000 100000 1 1 2000 5
+Unweighted-07	111	gen flower 100000 100000 1 1 316 3
+Unweighted-08	112	gen starshuffle 90000 100000 1 1 0
+Unweighted-09	113	gen silkworm 90000 100000 1 1 0
+Unweighted-10	114	gen degree 90000 100000 1 1 300 3
+Unweighted-11	115	gen distinct 100000 100000 1 1 2
+Unweighted-12	116	gen halving 100000 100000 1 1 2
+SmallWeight-01	119	gen random 75000 100000 5 10 14
+SmallWeight-02	120	gen random 75000 100000 1 10 15
+SmallWeight-03	121	gen random 100000 100000 1 10 16
+SmallWeight-04	122	gen mindegree 100000 100000 1 10 316 3
+SmallWeight-05	123	gen knary 90000 100000 5 10 316 6
+SmallWeight-06	124	gen knary 90000 100000 1 10 2000 7
+SmallWeight-07	125	gen knary 90000 100000 1 10 12000 8
+SmallWeight-08	126	gen degree 90000 100000 1 3 10000 4
+SmallWeight-09	127	gen starshuffle 90000 100000 1 10 1
+SmallWeight-10	128	gen flower 100000 100000 1 10 316 4
+SmallWeight-11	129	gen silkworm 75000 100000 7 10 1
+SmallWeight-12	130	gen distinct 99990 100000 1 10 3
+SmallWeight-13	131	gen halving 99990 100000 1 10 3
+Full-01	134	gen random 75000 100000 500000000 1000000000 17
+Full-02	135	gen random 75000 100000 1 1000000000 18
+Full-03	136	gen mindegree 100000 100000 min 5 316 4
+Full-04	137	gen knary 90000 100000 1 1000000000 316 9
+Full-05	138	gen knary 100000 100000 1000000000 1000000000 313 10
+Full-06	139	gen knary 100000 100000 sum 1 516 11
+Full-07	140	gen flower 100000 100000 sum 2 316 5
+Full-08	141	gen knary 90000 100000 500000000 1000000000 2200 12
+Full-09	142	gen knary 90000 100000 500000000 1000000000 8000 13
+Full-10	143	gen knary 90000 100000 500000000 1000000000 12000 14
+Full-11	144	gen starshuffle 90000 100000 500000000 1000000000 2
+Full-12	145	gen random 90000 100000 sum 2 19
+Full-13	146	gen degree 90000 100000 999999997 1000000000 400 5
+Full-14	147	gen distinct 99990 100000 900000000 1000000000 4
+Full-15	148	gen distinct 100000 100000 min 0 5
+Full-16	149	gen halving 99990 100000 900000000 1000000000 4
+Full-17	150	gen halving 99990 100000 1 1000000000 5
+Full-18	151	gen distinct 100000 100000 1000000000 1000000000 6

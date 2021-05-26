@@ -1,0 +1,45 @@
+{
+  "subtask_sensitive_validators": ["validator.cpp {subtask}"],
+  "subtasks": {
+    "samples": {
+      "index": 0,
+      "score": 0,
+      "validators": []
+    },
+    "increasing-H": {
+      "index": 1,
+      "score": 4,
+      "validators": []
+    },
+    "cubic": {
+      "index": 2,
+      "score": 8,
+      "validators": []
+    },
+    "quadratic": {
+      "index": 3,
+      "score": 13,
+      "validators": []
+    },
+    "small-query": {
+      "index": 4,
+      "score": 12,
+      "validators": []
+    },
+    "fixed-start-end": {
+      "index": 5,
+      "score": 23,
+      "validators": []
+    },
+    "fixed-end": {
+      "index": 6,
+      "score": 21,
+      "validators": []
+    },
+    "full": {
+      "index": 7,
+      "score": 19,
+      "validators": []
+    }
+  }
+}

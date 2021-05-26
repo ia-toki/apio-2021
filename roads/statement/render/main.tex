@@ -1,0 +1,21 @@
+% Render the images using the following commands:
+%
+% pdflatex main.tex
+% convert -density 300 -background white -alpha remove -alpha off main.pdf main.png
+% mv main-0.png ../roads-1.png
+% mv main-1.png ../roads-2.png
+% cd ..
+% mogrify -resize 200x roads-1.png
+% mogrify -resize 200x roads-2.png
+
+\documentclass[tikz,border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes}
+\usetikzlibrary{positioning}
+
+\tikzset{node/.style={circle,draw,minimum size=15pt,inner sep=0pt}}
+
+\begin{document}
+    \include{roads1}
+    \include{roads2}
+\end{document}  

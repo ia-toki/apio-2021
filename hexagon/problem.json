@@ -1,0 +1,8 @@
+{
+  "name": "hexagon",
+  "code": "hexagon",
+  "title": "Hexagonal Territory",
+  "memory_limit": 1024,
+  "time_limit": 2.0,
+  "type": "Batch"
+}
